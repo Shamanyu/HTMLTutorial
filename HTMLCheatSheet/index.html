@@ -66,6 +66,42 @@
         </tr>
       </tbody>
     </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- FORMS -->
+    <form action="process.py" method="POST">
+      <div>
+        <label>First name</label>
+        <input type="text" name="first_name">
+      </div>
+      <br>
+      <div>
+        <label>Last name</label>
+        <input type="text" name="last_name">
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label>Blog</label>
+        <textarea name="blog">
+        </textarea>
+      </div>
+      <br>
+      <div>
+        <label>Gender</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+    </form>
     <div style="margin-top:500px"></div>
   </body>
 </html>
